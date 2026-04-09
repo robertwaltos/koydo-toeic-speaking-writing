@@ -1,0 +1,5 @@
+Initial release of Koydo TOEIC Speaking & Writing Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

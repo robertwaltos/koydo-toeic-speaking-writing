@@ -1,0 +1,26 @@
+{
+  "name": "Koydo TOEIC Speaking & Writing — Exam Prep",
+  "short_name": "Koydo TOEIC Speaking & Writing",
+  "description": "TOEIC Speaking & Writing exam preparation with AI-powered study tools",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#059669",
+  "background_color": "#059669",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

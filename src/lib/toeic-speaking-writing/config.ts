@@ -1,0 +1,45 @@
+// TOEIC Speaking & Writing Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM008",
+  slug: "toeic-speaking-writing",
+  name: "TOEIC Speaking & Writing",
+  fullName: "TOEIC S&W",
+  alias: "TOEIC S&W",
+  family: "TOEIC",
+  category: "Language proficiency",
+  subcategory: "Workplace English",
+  country: "Global",
+  region: "Global",
+  languages: ["English"],
+  estimatedAnnualTakers: "not disclosed",
+  testingWindow: "Year-round",
+  schedulePattern: "Center/institutional",
+  ageGroup: "18-45",
+  targetUser: "Job seeker / employee",
+  delivery: "Computer-based",
+  questionTypes: ["Speaking","writing"],
+  adaptivity: "Linear",
+  sections: "2 skills",
+  scoringMode: "Scaled",
+  essayOrSpeaking: "Yes",
+  ipRisk: "High",
+  contentReuse: "language_workplace",
+  uiEngine: "speaking_writing",
+  monetizationPotential: "Medium",
+  tier: "Tier 2",
+  launchWave: "Wave 3",
+  themeColor: "#059669",
+  themeColorDark: "#047857",
+  localizationComplexity: "Medium",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
