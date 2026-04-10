@@ -1,0 +1,15 @@
+{
+  "name": "Koydo TOEIC S&W",
+  "short_name": "TOEIC S&W",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1565C0",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
